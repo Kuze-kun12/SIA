@@ -1,0 +1,28 @@
+{
+  "name": "generoso.sia",
+  "version": "1.0.0",
+  "description": "SIA Version Control Activity",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "activity"
+  ],
+  "author": "Generoso, Raul A. III",
+  "license": "ISC",
+  "homepage": "https://github.com/Kuze-kun12/SIA#readme",
+  "bugs": {
+    "url": "https://github.com/Kuze-kun12/SIA/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuze-kun12/SIA.git"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
