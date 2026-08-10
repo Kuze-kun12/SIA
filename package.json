@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
-    "test": "node test.js"
+    "test": "node index.js"
   },
   "keywords": [
     "activity"
