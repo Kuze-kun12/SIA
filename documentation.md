@@ -77,3 +77,6 @@ STEP E: git comands
   4. git remote add origin https://github.com/Kuze-kun12/SIA.git
   5. git branch -M main
   6. git push -u origin main
+
+
+
