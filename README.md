@@ -1,0 +1,21 @@
+<div align="center">
+  <h1 align="center">SIA</h1>
+
+  <p align="center">JJUST A DOCUMENTATION</p><br>
+  <p align="center">BY: Raul A. Generoso lll</p><br>
+</div>
+
+
+SYSTEM INTEGRATION AND ARCHICTECTURE
+Documents for steps
+
+
+##  1. STEP A:
+
+```bash
+STEP A:
+  1. LOG-IN ON YOUR GITHUB ACCOUNT
+  2. THEN GO DASHBOARD AND PRESS THE GREEN BUTTON THAT NAME AS NEW 
+  3. NAME YOUR REPOSITORY, DESCRIPTIONS IS OPTIONAL AND MAKE IT PUBLIC
+  4. THEN SCROOL DOWN AND PRESS CRETE REPOSITORY
+```
