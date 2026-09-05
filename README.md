@@ -187,7 +187,133 @@ git commit -m "test: add unit tests for user authentication"
 ```bash
 git commit -m "chore: update npm package dependencies"
 ```
-<br><br>
+<br><br><br><br>
+
+
+## A simple Express.js REST API server serving mock animal data on a local network IP address.
+
+> [!NOTE]
+> This code imports Express, creates an application instance, and sets the port and local IP address where your server will run.
+
+```javascript
+const express = require('express');
+const server = express()
+const PORT = 3000;
+const HOSTNAME = "192.168.2.31";
+```
+
+> [!TIP]
+> USE 0.0.0.0 ON THE HOSTNAME TO ACCESS TO ALL
+
+> [!IMPORTANT]
+> THIS IS WHAT YOU CALLED AS A REST API 
+```javascript
+server.get(`/api/data`, (req, res) => {
+  return res.json(data);
+});
+```
+> An architectural style allowing independent software systems to communicate over HTTP using structured requests and responses.
+
+## HTTPS METHODS 
+> [!IMPORTANT]
+> THIS IS THE HTTPS METHODS
+> 1.GET - Retrieves or fetches data from the server without modifying anything.
+```javascript
+app.get('/api/users', (req, res) => {
+  res.json({ message: "Fetching all users" });
+});
+```
+> 2.POST - Sends new data to the server to create a new resource.
+```javascript
+app.post('/api/users', (req, res) => {
+  res.status(201).json({ message: "User created successfully" });
+});
+```
+> 3.PUT - Replaces an existing resource completely with new data.
+```javascript
+app.put('/api/users/:id', (req, res) => {
+  res.json({ message: `Completely updated user ${req.params.id}` });
+});
+```
+> 4. PATCH - Partially updates specific fields of an existing resource.
+```javascript
+app.patch('/api/users/:id', (req, res) => {
+  res.json({ message: `Partially updated user ${req.params.id}` });
+});
+```
+> 6. DELETE - Removes a specified resource from the server.
+```javascript
+app.delete('/api/users/:id', (req, res) => {
+  res.json({ message: `Deleted user ${req.params.id}` });
+});
+```
+<br><br><br><br>
+
+
+## Common HTTP Status Codes
+> [!IMPORTANT]
+> 1. 200 OK: Request succeeded.
+> 2. 201 Created: Resource successfully created via POST.
+> 3. 400 Bad Request: Client sent invalid request payloads/syntax.
+> 4. 404 Not Found: Endpoint or resource ID does not exist.
+> 5. 500 Internal Server Error: Unexpected application/database crash on the server.
+
+> [!TIP]
+> this is example of route in express
+```Javascript
+// Example route
+server.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+```
+> [!TIP]
+> TO SEE THE OUTPUT OF YOUR CODE
+```bash
+node index.js 
+```
+> ANOTHER ONE THAT IS SUPER USEFUL TO NOT ALWAYS TYPE NODE INDEX ON YOUR TEMINAL, JUST SAVE AND THE NODE WILL RUN AUTOMATICALLY 
+```bash
+node --watch index.js 
+```
+> [!IMPORTANT]
+> TO SEE THE LINK
+> http://192.168.2.31:3000/api/data
+└──┬─┘  └──────┬─────┘ └─┬┘ └───┬──┘
+Scheme       Host IP    Port   Path / Endpoint
+> SO 0.0.0.0:3000/api/data is your url
+
+
+### ADDITIONAL KNOWLEDGE IF YOU CAN SEE THIS ERROR WHEN YOU PUSH 
+remote: Permission to Kuze-kun12/Practice-Database.git denied to j*********.
+fatal: unable to access 'https://github.com/Kuze-kun12/Practice-Database.git/': The requested URL returned error: 403
+
+> THEN FOLLOW THIS STEPS
+
+> [!IMPORTANT]
+> ## WINDOWS 10 - 11 ENVIRONMENT
+> 1. PRESS THE WINDOWS LOGO ON YOUR KEYBOARD
+> 2. THEN TYPE WINDOWS CREDENTIAL MANAGER
+> 3. THEN DELETE THE GITHUB ACCOUNT IF YOU SEE ONE
+> 4. THEN GO TO YOUR CMD TO CHANGE YOUR USER NAME TO
+```bash
+git config --global user.name "Kuze-kun12"
+```
+
+> [!IMPORTANT]
+> ## LINUX ENVIRONMENT
+> 1. GO TO YOUR CMD
+> 2. INSTALL THE gh 
+```bash
+sudo apt install gh
+```
+> 3. login to github using gh on your terminal
+```bash
+sudo gh auth login
+```
+> 4. login and folow the step then change your username as always
+```bash
+git config --global user.name "Kuze-kun12"
+```
 
 
 
