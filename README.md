@@ -141,13 +141,12 @@ Is this OK? (yes)
 > [!NOTE]
 > ##  4. STEP E:
 > [!IMPORTANT]
+> 1. git init
+> 2. git add . TO ADD THE FOLDER TO YOUR GITHUB ACOUNT
+> 3. git commit -m "ci(index.js): Initial" THIS IS CALLED AS SEMANTIC
+> 4. git remote add origin https://github.com/Kuze-kun12/SIA.git
+> 5. git push -u origin main
 
->  1.git init
->  2. git add . TO ADD THE FOLDER TO YOUR GITHUB ACOUNT 
->  3. git commit -m "ci(index.js): Initial" THIS IS CALLED AS SEMANTIC
->  4. git remote add origin https://github.com/Kuze-kun12/SIA.git
->  5. git branch -M main
->  6. git push -u origin main
 
 
 
