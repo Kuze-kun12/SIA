@@ -9,6 +9,31 @@
 SYSTEM INTEGRATION AND ARCHICTECTURE
 Documents for steps
 
+## SET UP FOR GIT
+
+> [!NOTE]
+> Setting up the git on your desktop.
+> ## WINDOWS 10 - 11 ENVIRONMENT
+> 1. PRESS THE WINDOWS LOGO ON YOUR KEYBOARD
+> 2. THEN MAKE TYPE POWER SHELL
+> 3. THEN PASTE THIS TO DOWNLOAD THE GIT AT LEAST VERSION
+```bash
+winget install --id Git.Git -e --source winget
+```
+> ## LINUX ENVIRONMENT
+> 1. GO TO YOUR CMD
+> 2. THEN UPDATE YOUR INDEPENDENCE
+```bash
+sudo apt update && apt upgrade -y
+sudo apt install git 
+```
+> ## CHECK THE GIT VERSION
+```bash
+git -v
+```
+
+
+
 
 ##  1. STEP A:
 
