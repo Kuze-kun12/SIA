@@ -9,8 +9,8 @@
 SYSTEM INTEGRATION AND ARCHICTECTURE
 Documents for steps
 
-> [!NOTE]
-> ## SET UP FOR GIT
+
+## SET UP FOR GIT
 
 > [!IMPORTANT]
 > Setting up the git on your desktop.
@@ -35,47 +35,60 @@ sudo apt install git
 git -v
 ```
 
+<br><br><br><br>
 
 
+> [!NOTE]
+> ##  1. STEP A:
 
-##  1. STEP A:
+> [!IMPORTANT]
+>  1. LOG-IN ON YOUR GITHUB ACCOUNT
+>  2. THEN GO DASHBOARD AND PRESS THE GREEN BUTTON THAT NAME AS NEW 
+>  3. NAME YOUR REPOSITORY, DESCRIPTIONS IS OPTIONAL AND MAKE IT PUBLIC
+>  4. THEN SCROOL DOWN AND PRESS CRETE REPOSITORY
 
-```bash
-  1. LOG-IN ON YOUR GITHUB ACCOUNT
-  2. THEN GO DASHBOARD AND PRESS THE GREEN BUTTON THAT NAME AS NEW 
-  3. NAME YOUR REPOSITORY, DESCRIPTIONS IS OPTIONAL AND MAKE IT PUBLIC
-  4. THEN SCROOL DOWN AND PRESS CRETE REPOSITORY
-```
+> [!NOTE]
+> ##  2. STEP B:
 
-##  2. STEP B:
-
-```bash
-  1. CREATE A FILE ON YOUR FILE MANAGER AND CREATE A NEEW FOLDER AND NAME IT 
+> [!IMPORTANT]
+  1. CREATE A FILE ON YOUR FILE MANAGER AND CREATE A NEW FOLDER AND NAME IT 
   2. THEN RIGHT CLICK FOLDER YOU CREATED 
   3. THEN RIGHT CLICK THEN CLICK TERMINAL 
-```
 
+> [!NOTE]
 ##  3. STEP C:
 
-```bash
-1. GO TO THE TERMINAL AND COPY THIS COMMAND 
-      npm init
-2. THEN FOLLOW THIS ONE 
+> [!IMPORTANT]
+> 1. GO TO THE TERMINAL AND COPY THIS COMMAND
 
+```bash
+npm init
+```
+> 2. THEN FOLLOW THIS ONE 
+
+> [!TIP]
+> HELPFUL NOTES.
+```bash
 package name: (sia-ex) generoso.sia                             // YOUR PACKAGE NAME THEN ENTER
-version: (1.0.0)                                                // ENTER BECUASE THIS IS YOUR VERSION CONTROL THEN ENTER
+version: (1.0.0)                                                // ENTER BECUASE THIS IS YOUR VERSION CONTROL 
 description: Activities                                         // OPTIONAL THEN ENTER 
 entry point: (index.js)                                         // ENTER YOUR ENTRY POINT 
-test command:                                                   // ENTER 
+test command:                                                   // ENTER
+```
 
-3. GO TO YOUR GITHUB AND COPY YOUR HTTPS, THE BLUE SQUARE THEN PASTE IT 
-
+> 3. GO TO YOUR GITHUB AND COPY YOUR HTTPS, THE BLUE SQUARE THEN PASTE IT 
+```bash
 git repository: https://github.com/Kuze-kun12/activity_sia.git  // PASTE YOUR HTTPS
 keywords: sia,activity,sy25-26                                  // ANYTHING THAT IS YOUR KEYWORDS
 author: Generoso, Raul A. lll                                   // THE AUTHOR
 license: (ISC)                                                  // ENTER 
-type: (commonjs)                                                // ENTER 
+type: (commonjs)                                                // ENTER
+```
 
+> [!IMPORTANT]
+> OUPUT
+
+```bash
 About to write to /home/Rdev/Documents/SIA EX/package.json:
 
 {
@@ -104,10 +117,10 @@ About to write to /home/Rdev/Documents/SIA EX/package.json:
   "homepage": "https://github.com/Kuze-kun12/activity_sia#readme"
 }
 
-Is this OK? (yes) 
-
- 4. IF THIS IS CORRECT THEN PRESS ENTER  
+Is this OK? (yes)
 ```
+> 4. IF THIS IS CORRECT THEN PRESS ENTER  
+
 
 ##  4. STEP D:
 
