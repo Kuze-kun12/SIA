@@ -146,7 +146,45 @@ Is this OK? (yes)
 > 3. git commit -m "ci(index.js): Initial" THIS IS CALLED AS SEMANTIC
 > 4. git remote add origin https://github.com/Kuze-kun12/SIA.git
 > 5. git push -u origin main
+<br><br>
 
+### SEMENTICS COMMITS
+> [!NOTE]
+> Semantic commits use clear prefixes like feat:, fix:, or docs: to explain what a code change does at a glance.
+> [!IMPORTANT]
+> 1. docs
+```bash
+git commit -m "docs: update setup instructions in README"
+```
+> 2. feat
+```bash
+git commit -m "feat: add user login endpoint"
+```
+> 3. fix
+```bash
+git commit -m "fix: resolve navigation bar alignment issue"
+```
+> 4. style 
+```bash
+git commit -m "fix: resolve navigation bar alignment issue"
+```
+> 5. refactor
+```bash
+git commit -m "refactor: simplify database connection function"
+```
+> 6. perf
+```bash
+git commit -m "perf: optimize image loading speed"
+```
+> 7. test
+```bash
+git commit -m "test: add unit tests for user authentication"
+```
+> 8. chore
+```bash
+git commit -m "chore: update npm package dependencies"
+```
+<br><br>
 
 
 
