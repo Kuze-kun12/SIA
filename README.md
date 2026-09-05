@@ -125,28 +125,32 @@ Is this OK? (yes)
 ```
 > 4. IF THIS IS CORRECT THEN PRESS ENTER  
 
+<br><br>
 
-##  4. STEP D:
+> [!NOTE]
+> ##  4. STEP D:
+> [!IMPORTANT]
+>  1. INSTALL THE npm i express
+>  2. GO TO THE TERMINAL THEN TYPE code . TO OPEN THE VSCODE USING YOUR FOLDER
+>  3. ADD FILE NAME AS .gitignore TO IGNORE THE MODULES THAT IS HEAAVY 
+>  4. GO TO THE .gitignore THEN TYPE node_module/ TO MAKE SURE WE WONT PUSH THE HEAVY MODULES OR IMPORTS
+>  5. ADD ANOTHER FILE AS index.js
 
-```bash
-  1. INSTALL THE npm i express
-  2. GO TO THE TERMINAL THEN TYPE code . TO OPEN THE VSCODE USING YOUR FOLDER
-  3. ADD FILE NAME AS .gitignore TO IGNORE THE MODULES THAT IS HEAAVY 
-  4. GO TO THE .gitignore THEN TYPE node_module/ TO MAKE SURE WE WONT PUSH THE HEAVY MODULES OR IMPORTS
-  5. ADD ANOTHER FILE AS index.js
-```
+<br><br>
 
-##  4. STEP E:
+> [!NOTE]
+> ##  4. STEP E:
+> [!IMPORTANT]
+>  1.git init
+>  2. git add . TO ADD THE FOLDER TO YOUR GITHUB ACOUNT 
+>  3. git commit -m "ci(index.js): Initial" THIS IS CALLED AS SEMANTIC
+>  4. git remote add origin https://github.com/Kuze-kun12/SIA.git
+>  5. git branch -M main
+>  6. git push -u origin main
 
-```bash
-  1.git init
-  2. git add . TO ADD THE FOLDER TO YOUR GITHUB ACOUNT 
-  3. git commit -m "ci(index.js): Initial" THIS IS CALLED AS SEMANTIC
-  4. git remote add origin https://github.com/Kuze-kun12/SIA.git
-  5. git branch -M main
-  6. git push -u origin main
 
-```
+
+
 
 
 > [!NOTE]
