@@ -151,7 +151,8 @@ Is this OK? (yes)
 ### SEMENTICS COMMITS
 > [!NOTE]
 > Semantic commits use clear prefixes like feat:, fix:, or docs: to explain what a code change does at a glance.
-> [!IMPORTANT]
+
+> [!TIP]
 > 1. docs
 ```bash
 git commit -m "docs: update setup instructions in README"
