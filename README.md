@@ -104,19 +104,17 @@ Is this OK? (yes)
 ```
 
 
-```diff
-+ This line will render in GREEN (addition)
-- This line will render in RED (deletion)
-! This line may render in ORANGE/GRAY depending on theme
-# This line may render in GRAY
-```
+> [!NOTE]
+> Highlights useful information for users.
 
-```ansi
-[31mThis text is RED[0m
-[32mThis text is GREEN[0m
-[33mThis text is YELLOW[0m
-[34mThis text is BLUE[0m
-[35mThis text is PURPLE[0m
-[36mThis text is CYAN[0m
-[1;31mThis text is BOLD RED[0m
-```
+> [!TIP]
+> Helpful advice or shortcuts.
+
+> [!IMPORTANT]
+> Key information users need to know.
+
+> [!WARNING]
+> Urgent info calling for immediate user attention.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes.
