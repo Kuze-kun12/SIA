@@ -9,9 +9,10 @@
 SYSTEM INTEGRATION AND ARCHICTECTURE
 Documents for steps
 
-## SET UP FOR GIT
-
 > [!NOTE]
+> ## SET UP FOR GIT
+
+> [!IMPORTANT]
 > Setting up the git on your desktop.
 > ## WINDOWS 10 - 11 ENVIRONMENT
 > 1. PRESS THE WINDOWS LOGO ON YOUR KEYBOARD
