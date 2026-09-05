@@ -20,6 +20,7 @@ Documents for steps
 ```bash
 winget install --id Git.Git -e --source winget
 ```
+> [!IMPORTANT]
 > ## LINUX ENVIRONMENT
 > 1. GO TO YOUR CMD
 > 2. THEN UPDATE YOUR INDEPENDENCE
@@ -27,6 +28,7 @@ winget install --id Git.Git -e --source winget
 sudo apt update && apt upgrade -y
 sudo apt install git 
 ```
+> [!IMPORTANT]
 > ## CHECK THE GIT VERSION
 ```bash
 git -v
