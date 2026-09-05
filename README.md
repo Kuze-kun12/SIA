@@ -103,4 +103,9 @@ Is this OK? (yes)
 
 ```
 
-
+```diff
++ This line will render in GREEN (addition)
+- This line will render in RED (deletion)
+! This line may render in ORANGE/GRAY depending on theme
+# This line may render in GRAY
+```
