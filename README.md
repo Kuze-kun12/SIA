@@ -47,16 +47,18 @@ git -v
 >  3. NAME YOUR REPOSITORY, DESCRIPTIONS IS OPTIONAL AND MAKE IT PUBLIC
 >  4. THEN SCROOL DOWN AND PRESS CRETE REPOSITORY
 
+<br><br>
+
 > [!NOTE]
 > ##  2. STEP B:
+>  1. CREATE A FILE ON YOUR FILE MANAGER AND CREATE A NEW FOLDER AND NAME IT 
+>  2. THEN RIGHT CLICK FOLDER YOU CREATED 
+>  3. THEN RIGHT CLICK THEN CLICK TERMINAL
 
-> [!IMPORTANT]
-  1. CREATE A FILE ON YOUR FILE MANAGER AND CREATE A NEW FOLDER AND NAME IT 
-  2. THEN RIGHT CLICK FOLDER YOU CREATED 
-  3. THEN RIGHT CLICK THEN CLICK TERMINAL 
+<br><br>
 
 > [!NOTE]
-##  3. STEP C:
+> ##  3. STEP C:
 
 > [!IMPORTANT]
 > 1. GO TO THE TERMINAL AND COPY THIS COMMAND
@@ -84,6 +86,8 @@ author: Generoso, Raul A. lll                                   // THE AUTHOR
 license: (ISC)                                                  // ENTER 
 type: (commonjs)                                                // ENTER
 ```
+
+<br><br>
 
 > [!IMPORTANT]
 > OUPUT
