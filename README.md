@@ -129,6 +129,7 @@ Is this OK? (yes)
 
 > [!NOTE]
 > ##  4. STEP D:
+
 > [!IMPORTANT]
 >  1. INSTALL THE npm i express
 >  2. GO TO THE TERMINAL THEN TYPE code . TO OPEN THE VSCODE USING YOUR FOLDER
@@ -140,6 +141,7 @@ Is this OK? (yes)
 
 > [!NOTE]
 > ##  4. STEP E:
+
 > [!IMPORTANT]
 > 1. git init
 > 2. git add . TO ADD THE FOLDER TO YOUR GITHUB ACOUNT
