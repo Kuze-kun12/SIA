@@ -141,6 +141,7 @@ Is this OK? (yes)
 > [!NOTE]
 > ##  4. STEP E:
 > [!IMPORTANT]
+
 >  1.git init
 >  2. git add . TO ADD THE FOLDER TO YOUR GITHUB ACOUNT 
 >  3. git commit -m "ci(index.js): Initial" THIS IS CALLED AS SEMANTIC
